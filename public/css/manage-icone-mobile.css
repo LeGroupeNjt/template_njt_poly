@@ -1,0 +1,161 @@
+@import url('../fonts/roboto.css');
+    
+.section-home-title{
+	font-family: 'RobotoBoldCondensed';
+	color : #485b79;
+	font-size: 20px;
+	margin-left: 0px;
+}
+
+a.submit1 { 
+	border: 1px solid #f0882c; background: #fb9337; color: #fff; cursor: pointer; padding: 4px 15px; font-weight: bold;
+	text-decoration: none;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-left : 10px;}
+a.submit1:hover { background: #485B79; border: 1px solid #3f526f; color: #fff; }
+a.submit1:active { border: 1px solid #f0882c !important; background: #fb9337 !important; color: #fff; cursor: pointer; padding: 4px 15px; font-weight: bold; }
+.radius2 { -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
+
+
+
+.slideshow {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.slide {
+	position: relative;
+	float: left;
+	margin-bottom: 2px;
+	/*margin-right: 9px;*/
+	width: 100%;
+}
+
+.slide div.thumb {
+	background: #fff;
+	width: 90px;
+	height: 70px;
+	/*border: 1px solid #DDD;*/
+	font-size: 5px;
+	font-family: 'RobotoBoldCondensed', "Times New Roman", serif;
+	overflow: hidden;
+	text-align:center;
+	/*padding: 5px;*/
+}
+
+#listExamples #list5 .handle {
+	float: right;
+	background-color: #ccc;
+	background-image: url(slideshow/handle.png);
+	background-repeat: repeat-y;
+	width: 7px;
+	height: 20px;
+}
+
+.handle {
+	cursor: move;
+}
+
+
+.element a, .element_blank a, .element_on a {
+   outline: none;
+}
+
+#DragContainer .element, .element_blank {
+   float: left;
+   text-decoration: none;
+   font-size: 85%;
+   margin-right: 1px;
+   color: #444;
+   margin-bottom: 1px;
+   position: relative;	
+   	/*padding:2px;*/
+	width:88px;
+	height:65px;
+	padding-top:3px;
+}
+
+#DragContainer .element_on {
+   float: left;
+   text-decoration: none;
+   font-size: 85%;
+   color: #444;
+   position: relative;
+   border: 1px solid #88bbff;
+   background-color: #ddeeff;
+   width:88px;
+   height:65px;
+   padding-top:3px;
+
+}
+
+#DragContainer a img {
+   border: 0px;
+}
+
+.checkmark {
+   position: absolute;
+   top: 42px;
+   /*left: 33px;*/
+   left: 45%;
+   width: 40px !important;
+   height: 40px !important;
+   border: 0px;
+   background: transparent url('/images/checkmark.jpg') no-repeat top left;
+}
+
+.element .checkmark, .element_blank .checkmark {
+   display: none;
+}
+
+#DragContainer {
+  /* position: relative;*/
+}
+/*------------- --------------*/
+ul li{
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	color : #485b79;
+	font-size: 12px;
+/*	color: #00566A;
+    font-family: Verdana;
+    font-weight: bold;
+    */ 
+}
+
+div.class_message{
+	width:575px;
+	height:35px;
+}
+.msg_error{ 
+	border: 1px solid #C1322C;
+	width: 100%;
+	font-size: 14px;
+	font-family:Verdana;
+	color:#C1322C;
+	font-weight:bold;
+}
+.msg_confirmation{
+	border: 1px solid #56C857;
+	width: 100%;
+	font-size: 14px;
+	font-family:Verdana;
+	color:#56C857;
+	font-weight:bold;
+}
+.msg_info{
+	border: 1px solid #006DD5;
+	width: 100%;
+	font-size: 14px;
+	font-family:Verdana;
+	color:#006DD5;
+	font-weight:bold;
+}
+.msg_warning{
+	border: 1px solid #FF8400;
+	width: 100%;
+	font-size: 14px;
+	font-family:Verdana;
+	color:#FF8400;
+	font-weight:bold;
+}

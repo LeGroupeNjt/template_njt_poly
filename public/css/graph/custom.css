@@ -1,0 +1,33 @@
+@import url('/fonts/roboto.css');
+
+.morris-hover {
+    position: absolute;
+    z-index: 1000
+}
+.morris-hover.morris-default-style {
+    padding: 6px;
+    color: #666;
+    background: rgba(243, 242, 243, 0.8);
+    border: solid 2px rgba(195, 194, 196, 0.8);
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center
+}
+.morris-hover.morris-default-style .morris-hover-row-label {
+    font-weight: bold;
+    margin: 0.25em 0
+}
+.morris-hover.morris-default-style .morris-hover-point {
+    white-space: nowrap;
+    margin: 0.1em 0
+}
+
+
+.myclass { margin: 20px 0; padding-bottom: 5px; padding-right: 20px; display: inline-block; margin-top:0;}
+.myclass { 
+	font-family: 'RobotoBoldCondensed', Arial, Helvetica, sans-serif !important; 
+	font-size: 16px !important; 
+	font-weight: normal !important; 
+	text-transform: uppercase !important;
+	color: #666;
+	}
